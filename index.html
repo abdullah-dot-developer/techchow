@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body id="main-content">
 
     <!-- Preloader area start -->
     <div class="loading">
@@ -898,15 +898,15 @@
                                 </h5>
                                 <h2 class="text-white">How May We Help You!</h2>
                             </div>
-                            <form action="#">
+                            <form>
                                 <div class="row g-3">
                                     <div class="col-sm-6">
                                         <label for="name">Your name*</label>
-                                        <input type="text" id="name" placeholder="Robot fox">
+                                        <input type="text" id="name" placeholder="Robot fox" required>
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="email">Your Email*</label>
-                                        <input type="email" id="email" placeholder="info@example.com">
+                                        <input type="email" id="email" placeholder="info@example.com" required>
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="subject">subject*</label>
@@ -914,14 +914,14 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="number">Your Phone*</label>
-                                        <input type="text" id="number" placeholder="+1253 457 7840">
+                                        <input type="text" id="number" placeholder="+1253 457 7840" required>
                                     </div>
                                     <div class="col-12">
                                         <label for="massage">Message*</label>
-                                        <textarea id="massage" placeholder="Write Message"></textarea>
+                                        <textarea id="massage" placeholder="Write Message" required></textarea>
                                     </div>
                                 </div>
-                                <button>Send Message</button>
+                                <button type="submit">Send Message</button>
                             </form>
                         </div>
                     </div>
@@ -1128,6 +1128,7 @@
     <script src="assets/js/jquery.waypoints.js"></script>
     <!-- Script Js -->
     <script src="assets/js/script.js"></script>
+
 
 </body>
 
