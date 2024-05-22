@@ -4862,7 +4862,7 @@ input.main-search-input::placeholder {
 
 .talk-us__item {
     background: var(--gradient-bg);
-    padding: 60px;
+    padding: 60px 30px;
 }
 
 .talk-us__item .section-header h5 {
